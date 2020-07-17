@@ -81,7 +81,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="保成的博客">
-<meta property="og:url" content="http://yoursite.com/tags/welcome/index.html">
+<meta property="og:url" content="http://yoursite.com/tags/Welcome/index.html">
 <meta property="og:site_name" content="保成的博客">
 <meta property="article:author" content="保成">
 <meta name="twitter:card" content="summary">
@@ -114,13 +114,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/welcome/"/>
+  <link rel="canonical" href="http://yoursite.com/tags/Welcome/"/>
 
 
 
 
 
-  <title>标签: welcome | 保成的博客</title>
+  <title>标签: Welcome | 保成的博客</title>
   
 
 
@@ -181,16 +181,6 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-about">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于
           </a>
         </li>
       
@@ -260,7 +250,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>welcome<small>标签</small>
+        <h1>Welcome<small>标签</small>
         </h1>
       </div>
 
@@ -348,7 +338,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -370,7 +360,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -578,6 +568,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'Mus3IfXBN8sOQPROLrEBTarn-gzGzoHsz',
+        appKey: 'VC1SFzx1phTeiHVXHmRqscW2',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
